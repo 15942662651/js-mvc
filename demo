@@ -1,0 +1,38 @@
+//requirejs for father page object
+//main in controller
+define(function{
+  /**
+  *js-mvc demo
+  *@module model
+  */
+  var model=(function(){
+    return{
+      /**
+      *sku main page
+      *@namespace model
+      *@class skuMain
+      "skuMain":{
+        /**
+        *get no paged data of sku 
+        *
+        * @method getNoPagedSkuData
+        * @param {Number} a First number
+        * @param {Number} b The second number
+        * @return {Number} The sum of the two inputs
+        */
+        getNoPagedSkuData:function(queryStr){
+        }
+      }
+    };
+  })();
+  //responsibility
+  var view=(function(){})();
+  //responsibility
+  var controller=(function(){})();
+  
+  return {
+    "model":model,
+    "view":view,
+    "controller":controller
+  };
+});
